@@ -2,7 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  min_val = 0
+  min_val = nil
   min_key = nil
 name_hash.collect do |key, value|
     if value < min_val
