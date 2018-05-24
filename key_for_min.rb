@@ -10,7 +10,7 @@ name_hash.collect do |key, value|
     min_index = key
   end
 end
-
+end
 
 #min_val = 2
 #[5, 7, 2, 1, 13, 18, 5]
