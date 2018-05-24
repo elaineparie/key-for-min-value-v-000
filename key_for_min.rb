@@ -8,9 +8,9 @@ name_hash.each do |key, value|
     if value < min_val
     min_val = value
     min_index = key
-    key
     end
   end
+  key
 end
 
 #min_val = 2
