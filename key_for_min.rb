@@ -8,7 +8,7 @@ new_key = String.new
 name_hash.each do |key, value|
     if value < min_val
     min_val = value
-  new_key  << min_index = key
+  new_key << min_index = key
     end
   end
   new_key
