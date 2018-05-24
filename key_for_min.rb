@@ -3,12 +3,14 @@
 
 def key_for_min_value(name_hash)
   min_val = 0
+  min_key = nil
 name_hash.collect do |key, value|
     if value < min_val
     min_val = value
+    min_key = nil
     end
   end
-  min_val
+  min_key
 end
 
 #min_val = 2
